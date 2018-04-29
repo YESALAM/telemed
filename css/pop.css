@@ -1,0 +1,22 @@
+
+#pop{
+height:200px;
+width:240px;
+position:fixed;
+bottom:65%;
+left:50%;
+border:2px solid;
+padding:10px;
+background:#ffffff;
+border-radius:9px;
+
+
+
+}
+#close{
+right:5;
+top:5;
+float:right;
+
+
+}
