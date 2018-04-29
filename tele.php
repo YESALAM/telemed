@@ -4,9 +4,9 @@
 	error_reporting( ~E_DEPRECATED & ~E_NOTICE );
 	// but I strongly suggest you to use PDO or MySQLi.
 	
-	define('DBHOST', 'localhost');
-	define('DBUSER', 'root');
-	define('DBPASS', '');
+	define('DBHOST', 'telemed.cuwaze63w82m.us-east-1.rds.amazonaws.com');
+	define('DBUSER', 'vikram');
+	define('DBPASS', 'asdfghjkl');
 	define('DBNAME', 'telem1');
 	
 	$conn = mysql_connect(DBHOST,DBUSER,DBPASS);

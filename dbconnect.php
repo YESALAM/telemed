@@ -13,14 +13,14 @@
 	$dbcon = mysql_select_db(DBNAME);*/
 
 	$error="not connect";
-$dbhost = 'localhost';
+$dbhost = 'telemed.cuwaze63w82m.us-east-1.rds.amazonaws.com';
 $dbport = '3306';
 $dbname = 'telem1';
 $charset = 'utf8' ;
 
 $dsn = "mysql:host={$dbhost};port={$dbport};dbname={$dbname};charset={$charset}";
-$username = 'root';
-$password = '';
+$username = 'vikram';
+$password = 'asdfghjkl';
 
 $pdo = new PDO($dsn, $username, $password);
 
