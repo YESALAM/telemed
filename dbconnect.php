@@ -18,11 +18,11 @@ $dbport = '3306';
 $dbname = 'telem1';
 $charset = 'utf8' ;
 
-$dsn = "mysql:host={$dbhost};port={$dbport};dbname={$dbname};charset={$charset}";
+//$dsn = "mysql:host={$dbhost};port={$dbport};dbname={$dbname};charset={$charset}";
 $username = 'vikram';
 $password = 'asdfghjkl';
 
-$pdo = new PDO($dsn, $username, $password);
+//$pdo = new PDO($dsn, $username, $password);
 
 
 $link = mysqli_connect($dbhost, $username, $password, $dbname, $dbport);
